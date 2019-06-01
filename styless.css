@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+    body{
+    font-family:sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url("img/screen_2x.jpg");
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+aside {
+    background-image: url("img/screen_2x.jpg");
+    float:right;
+    position:absolute;
+    top: 100px;
+    right:0px;
+    height:550px;
+
+
+}
+aside a{
+    text-decoration: none;
+    padding: 14px 25px;
+    display: block;
+    color: #004095;
+    font-size: 18px;
+}
+aside a:hover{
+    background-color:floralwhite ;
+}
+
+
+article
+{
+    border:2px solid blue;
+    background-color:green;
+    color:white;
+    width:622px;
+    padding:20px;
+    position:absolute;
+    top:105px;
+    left:200px;
+
+
+}
+#article1
+{
+    background-color:pink;
+    color:white;
+    border:2px solid blue;
+    width:622px;
+    padding:20px;
+    position:absolute;
+    top:100px;
+    left:0px;
+
+}
+#article2
+{
+    background-color:yellow;
+    color:white;
+    border:2px solid blue;
+    width:622px;
+    padding:20px;
+    position:absolute;
+    top:210px;
+    left:0px;
+
+}
+#article3
+{
+    background-color:skyblue;
+    color:white;
+    border:2px solid blue;
+    width:622px;
+    height:120px;
+    padding:20px;
+    position:absolute;
+    top:380px;
+    left:0px;
+
+}
+
+
+nav{
+    background-image:url("img/pexels-photo-1122400.jpeg") ;
+    padding: 25px;
+    width: 150px;
+    display:inline-block;
+    height:500px;
+    box-shadow: 0 0 10px #f2d1ca;
+
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    padding: 14px 25px;
+    font-size: 20px;
+    color: floralwhite;
+}
+nav a:hover{
+    background-color: #f54c22;
+}
+nav a.active{
+    background-color: #def0f0;
+}
+
+
+footer{
+    background-image: url("img/screen_2x.jpg");
+    padding: 12px;
+    text-align: center;
+    color: white;
+    box-shadow:0 0 10px #f2d1ca;
+}
+footer a{
+    text-decoration: none;
+    color:darkred;
+}

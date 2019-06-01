@@ -1,0 +1,75 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+header{
+    background-image: url("img/pexels-photo-2340254.jpeg");
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+nav{
+    background-color:blue ;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    color: white;
+    padding:10px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: sandybrown;
+}
+nav a.active{
+    background-color:#9c3e34;
+}
+section{
+    margin-right: 250px;
+}
+article{
+padding: 20px;
+}
+ article h1{
+     font-size: 35px;
+    color:saddlebrown;
+}
+ article p{
+     font-size: 25px;
+     color: darkslategray;
+
+ }
+ aside{
+     background-image: url("img/pexels-photo-2340254.jpeg");
+     float: right;
+     width: 250px;
+     text-align: center;
+     box-shadow: 0 0 5px blue;
+     position: sticky;
+     top: 0;
+     height:900px;
+ }
+ aside a{
+     display:block;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 14px 25px;
+     color:white;
+ }
+ aside a:hover{
+     background-color:chocolate;
+ }
+ footer{
+     background-image: url("img/pexels-photo-2340254.jpeg");
+     padding: 12px;
+     text-align: center;
+     color: white;
+ }
+ footer a{
+     color: red;
+ }
